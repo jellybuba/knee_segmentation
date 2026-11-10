@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints (exceeds GitHub 100 MB limit)
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated test mask outputs
+sessions/test_pred_masks/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
