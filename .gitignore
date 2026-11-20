@@ -20,6 +20,7 @@ env/
 
 # Generated test mask outputs
 sessions/test_pred_masks/
+demo_training/
 
 # IDE & OS
 .vscode/
